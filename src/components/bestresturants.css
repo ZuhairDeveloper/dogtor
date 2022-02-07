@@ -1,0 +1,207 @@
+.best-resturants-section {
+  padding-top: 5%;
+}
+
+.best-resturants-section h2 {
+  font-size: 50px;
+  margin-bottom: 4%;
+}
+
+.best-resturants-section .best-resturant-card-1 {
+  position: relative;
+  height: 538px;
+}
+
+
+.best-resturants-section .best-resturant-card-1 .best-resturant-card-1-hover-text-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 51px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+
+.best-resturants-section .best-resturant-card-2 {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  border-radius: 15px;
+  margin-bottom: 18px;
+}
+
+
+
+.best-resturants-section .best-resturant-card-2 .best-resturant-card-2-hover-text-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 51px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+
+.best-resturants-section .best-resturant-card-2 .best-resturant-card-2-text {
+  position: absolute;
+  width: 223px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 51px;
+  border-radius: 35px;
+  border: 3px solid #abe236;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: rgba(0, 9, 41, 0.8);
+
+}
+
+.best-resturants-section .best-resturant-card-1 .best-resturant-card-1-text {
+  position: absolute;
+  width: 223px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 51px;
+  border-radius: 35px;
+  border: 3px solid #abe236;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: rgba(0, 9, 41, 0.8);
+
+}
+
+
+.best-resturants-section .best-resturant-card-1 .hover-color-1, .best-resturants-section .best-resturant-card-2 .hover-color-1 {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.best-resturants-section .best-resturant-card-1::before {
+  position: absolute !important;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 999999999999999;
+  background-size: cover;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  opacity: 0;
+
+}
+
+.best-resturants-section .best-resturant-card-1:hover::before {
+  opacity: 1;
+}
+
+.best-resturants-section .best-resturant-card-1.hover-color-2 .best-resturant-card-1-text {
+  top: 10%;
+  transition: 0.1s all ease-in-out;
+}
+
+.best-resturants-section .best-resturant-card-2.hover-color-2 .best-resturant-card-2-text {
+  top: 20%;
+  transition: 0.1s all ease-in-out;
+}
+
+.best-resturants-section .best-resturant-card-2:hover::before {
+  opacity: 1;
+}
+
+.best-resturants-section .best-resturant-card-2::before {
+  position: absolute !important;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 999999999999999;
+  background-size: cover;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  opacity: 0;
+}
+
+.best-resturant-card-2 .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+}
+
+.best-resturant-card-1 .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.best-resturant-card-2-hover-text-box .time-duration, .best-resturant-card-1-hover-text-box .time-duration {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-right: 10px;
+
+}
+
+.best-resturant-card-2-hover-text-box .like, .best-resturant-card-1-hover-text-box .like {
+  font-weight: bold !important;
+  color: #ffffff;
+}
+
+.best-resturant-card-2-hover-text-box .percentage, .best-resturant-card-1-hover-text-box .percentage {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  padding-left: 8px;
+
+}
+
+.best-resturant-card-2-hover-text-box .views, .best-resturant-card-1-hover-text-box .views {
+  font-size: 14px;
+  padding-left: 15px;
+  color: #ffffff;
+}
+
+@media screen and (max-width:1025px) {
+
+
+  .best-resturants-section .best-resturant-card-2 {
+    margin-bottom: 3%;
+  }
+
+}
+
+@media screen and (max-width:769px) {
+
+  .best-resturants-section .best-resturant-card-1 {
+    margin-bottom: 3%;
+  }
+
+}
+
+@media screen and (max-width:426px) {
+  .best-resturants-section .best-resturant-card-1 {
+    height: 260px;
+  }
+
+  .best-resturants-section .best-resturant-card-1.hover-color-2 .best-resturant-card-1-text {
+    top: 20%;
+  }
+
+
+}

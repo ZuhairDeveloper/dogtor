@@ -1,0 +1,158 @@
+.banner-section .header-heading {
+    padding-top: 5%;
+}
+
+.banner-section .header-heading h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner-section .header-heading h2 {
+    font-weight: 700;
+}
+
+.banner-section .header-heading p {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.banner-section .header-heading p .arrow-down {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 40px;
+    height: 35px;
+}
+
+.banner-section .header-heading p span span {
+    position: relative;
+    color: #ABE236;
+}
+
+
+
+.banner-section .header-heading p span:first-child {
+    padding-left: 1%;
+}
+
+
+/*  Address Box */
+.banner-section .address-box {
+    display: flex;
+    width: 709px;
+    height: 44px;
+    background-color: #FCFCFC;
+    filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.1));
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+}
+
+.banner-section .address-box .address-flag-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    background-color: #ABE236;
+    height: 44px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.banner-section .address-box .address-flag-icon svg {
+    color: #ffffff;
+
+}
+
+.banner-section .address-box .row .col-lg-7 input {
+    padding-left: 10px;
+    width: 420px;
+    font-size: 14px;
+    background-color: transparent;
+    height: 100%;
+}
+
+.banner-section .address-box .row .col-lg-1 {
+    display: flex;
+    align-items: center;
+}
+
+.banner-section .address-box .row .col-lg-1 svg {
+    color: #ABE236;
+}
+
+.banner-section .address-box .row .col-lg-4 {
+    display: flex;
+    align-items: center;
+}
+
+
+.banner-section .banner-cards {
+    margin-top: 7%;
+}
+
+.banner-section .banner-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner-section .banner-cards .banner-circle-card {
+    width: 108px;
+    height: 109px;
+    background-color: #F1F1F1;
+    filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.1));
+    border-radius: 100px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 7%;
+
+
+}
+
+.banner-section .banner-cards .banner-circle-card div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-section .banner-cards .banner-circle-card div img {
+    width: 43px;
+    height: auto;
+}
+
+.banner-section .banner-cards .banner-circle-card p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.banner-section .address-box .use-current-location span {
+    color: #ABE236;
+}
+
+.banner-section .banner-circle-card-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:480px) {
+    .banner-section .address-box .use-current-location {
+        display: none !important;
+    }
+
+    .banner-section .address-box .row .col-lg-7 input {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .banner-section .address-box {
+        width: 100%;
+    }
+}

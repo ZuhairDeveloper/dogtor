@@ -1,0 +1,48 @@
+.select-and-explore-modal {
+    width: 100vw;
+    height: 100vh;
+}
+
+.select-and-explore-city-modal {
+    padding-top: 4%;
+
+}
+
+.select-and-explore-city-modal .cancel-icon {
+    fill: #BBBBBB;
+    width: 50.54px;
+    height: 40.19px;
+}
+
+.select-and-explore-city-modal .location-heading-and-input {
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.select-and-explore-city-modal .location-heading-and-input h2 {
+    font-weight: 500;
+
+}
+
+.select-and-explore-city-modal .location-heading-and-input .location-icon {
+    width: 31.17px;
+    height: 37.78px;
+
+
+}
+
+.select-and-explore-city-modal .location-heading-and-input input {
+    font-size: 85px;
+    font-weight: bold;
+    margin-top: 4%;
+    border-bottom: 1px solid #000929;
+    width: 100%;
+}
+
+.select-and-explore-city-modal .location-heading-and-input p {
+    font-size: 15px;
+    text-align: right;
+    color: #000929;
+    margin-top: 1%;
+    margin-right: 2%;
+}

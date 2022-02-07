@@ -1,0 +1,13 @@
+.team-dogtor-section {
+    margin-top: 7%;
+}
+
+.team-dogtor-section h2 {
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+
+.team-dogtor-section .team-dogtor-cards-row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,56 @@
+.rider-safety-section {
+    margin: 7% 0px;
+}
+
+.rider-safety-section .rider-safety-left h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.rider-safety-section .rider-safety-left p {
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.rider-safety-section .rider-safety-left h6 {
+    font-size: 15px;
+    margin-top: 4%;
+    padding-bottom: 4%;
+    border-bottom: 2px solid #ABE236;
+    max-width: max-content;
+}
+
+.rider-safety-section .rider-safety-right {
+    width: 100%;
+    height: 249px;
+    border-radius: 10px;
+}
+
+.rider-safety-section .rider-safety-img {
+    width: 100%;
+    height: auto;
+    object-position: center;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:426px) {
+    .rider-safety-right {
+        width: 100%;
+        height: 200px;
+    }
+
+    .rider-safety-section {
+        margin-bottom: 5%;
+    }
+
+    .rider-safety-section .rider-safety-right {
+        height: 180px;
+    }
+
+    .rider-safety-section .rider-safety-img {
+        height: 100%;
+    }
+
+}

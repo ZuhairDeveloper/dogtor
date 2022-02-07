@@ -1,0 +1,136 @@
+.header {
+	background-color: rgba(171, 226, 54, 1) !important;
+	filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.161));
+	position: relative;
+}
+
+.header .header-logo {
+	width: 250px;
+	height: 100%;
+}
+
+.header .navbar-nav {
+	margin-right: auto;
+}
+
+.header .navbar-nav .header-link {
+	color: white;
+	font-size: 13px;
+}
+
+.header .navbar-nav .header-right-link {
+	color: white;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+}
+
+.header .navbar-nav .header-link span {
+	padding-left: 2px;
+}
+
+.header .navbar-nav .header-login-btn {
+	font-size: 13px;
+	width: 117px;
+	height: 34px;
+	color: #ffffff;
+	background-color: #000225;
+	border-radius: 17px;
+}
+
+.header .navbar-nav .header-checkin-btn {
+	font-size: 13px;
+	width: 117px;
+	height: 34px;
+	color: #000225;
+	background-color: #ffffff;
+	border-radius: 17px;
+}
+
+@media screen and (max-width:427px) {
+	.custom-container {
+		max-width: 95%;
+	}
+}
+
+@media screen and (max-width:769px) {
+	.custom-container {
+		max-width: 90%;
+	}
+}
+
+.custom-container-85 {
+	max-width: 85%;
+	margin: auto;
+}
+
+.h-53 {
+	height: 53px;
+}
+
+.font-40 {
+	font-size: 40px;
+}
+
+.header-logo {
+	width: 250px;
+	height: 100%;
+}
+
+@media screen and (max-width:426px) {
+	.header-logo {
+		width: 190px !important;
+	}
+
+
+}
+
+/*  LOOK FOR SECTION */
+.look-for-section {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+	background-color: #ffffff;
+	height: 110px;
+}
+
+.look-for-section .container {
+	height: 100%;
+}
+
+.look-for-section .container .row {
+	height: 100%;
+}
+
+.look-for-section .input-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+}
+
+.look-for-section .input-box input {
+	width: 100%;
+	margin-top: 35px;
+	font-size: 30px;
+	border-bottom: 1px solid #ABE236;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.look-for-section .input-box .cancel-icon{
+	font-size: 40px;
+	position: absolute;
+	right: 0%;
+	top: 35px;
+	color: #ABE236;
+
+}
+
+.look-for-section .input-box .search-icon{
+	font-size: 40px;
+	position: absolute;
+	left: 0%;
+	top: 35px;
+	color: #ABE236;
+}

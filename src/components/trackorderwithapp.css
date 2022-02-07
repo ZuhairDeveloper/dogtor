@@ -1,0 +1,226 @@
+.track-order-section {
+
+    width: 100%;
+    height: max-content;
+    padding-bottom: 5%;
+    background-color: #ABE236;
+    position: relative;
+}
+
+.track-order-section .bg-img-top {
+    background-image: url('../assets/images/track-order-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.track-order-section .bg-img-bottom {
+    background-image: url('../assets/images/track-order-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    transform: rotateX(180deg);
+}
+
+.track-order-section .buttons-row {
+    width: 80%;
+    margin: auto;
+    margin-top: 180px;
+
+}
+
+.track-order-section .buttons-row .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.track-order-section .buttons-row button {
+    width: 153px;
+    height: 42px;
+    border-radius: 21px;
+
+}
+
+.track-order-section .buttons-row button .track-order-btn-icon {
+    width: 10px;
+    height: 11px;
+}
+
+.track-order-section .buttons-row button span {
+    margin-right: 10px;
+}
+
+.track-order-section .buttons-row .mobile-app-btn {
+    background-color: #000929;
+    color: #ABE236;
+}
+
+.track-order-section .buttons-row .dashboard-btn {
+    background-color: #ffffff;
+}
+
+.track-order-section .buttons-row .development-btn {
+    background-color: #ffffff;
+
+}
+
+.track-order-section .track-order-main-content-row {
+    margin-top: 5%;
+}
+
+
+.track-order-section .track-order-main-content-row .left-section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.track-order-section .track-order-main-content-row .left-section h3 {
+    font-size: 40px;
+    text-align: right;
+}
+
+.track-order-section .track-order-main-content-row .left-section h3 span {
+    color: #ffffff;
+}
+
+.track-order-section .track-order-main-content-row .left-section p {
+    font-size: 15px;
+    text-align: right;
+    margin-top: 6%;
+}
+
+.track-order-section .track-order-main-content-row .left-section .platforms {
+    text-align: right;
+    margin-top: 6%;
+}
+
+
+.track-order-section .top-circle-icon {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    width: 122px;
+    top: 110px;
+    height: 120px;
+
+}
+
+.track-order-section .bottom-circle-icon {
+    position: absolute;
+    width: 122px;
+    height: 120px;
+    bottom: 160px;
+    right: 0;
+
+}
+
+.track-order-container {
+    width: 50%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+
+.track-order-btn {
+    width: 153px;
+    height: 42px;
+    border-radius: 21px;
+}
+
+.bg-main {
+    background-color: #000929;
+}
+
+.track-order-mobile-img {
+    width: 100%;
+    height: 440px;
+}
+
+.track-order-app-platform {
+    width: 130.43px;
+    height: 35.09px;
+}
+
+/* Dashboard Row */
+.track-order-section .dashboard-data-row {
+    margin-top: 180px;
+
+}
+
+
+.track-order-section .dashboard-data-row p {
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.track-order-section .dashboard-data-row h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.track-order-section .dashboard-data-row .dashboard-img {
+    height: 623.3px;
+    width: 100%;
+}
+
+/* Development */
+.track-order-section .development-data-row {
+    margin-top: 180px;
+}
+
+.track-order-section .development-data-row p {
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.track-order-section .development-data-row p h3 {
+    font-size: 40px;
+    text-align: center;
+    display: inline;
+    color: black;
+}
+
+.track-order-section .development-data-row .development-img {
+    height: 623.3px;
+    width: 100%;
+}
+
+
+.track-order-section .close-icon-box .close-icon {
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:769px) {
+    .track-order-section .buttons-row div {
+        margin-bottom: 4%;
+    }
+
+    .track-order-section .bottom-circle-icon {
+        bottom: 0px;
+
+    }
+
+}
+
+@media screen and (max-width:426px) {
+    .track-order-section {
+
+    }
+}

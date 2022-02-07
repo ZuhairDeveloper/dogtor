@@ -1,0 +1,128 @@
+.most-popular-section {
+    margin-top: 7%;
+}
+
+.most-popular-section .container .row .col-lg-12 h2 {
+    font-size: 50px;
+}
+
+.most-popular-section .container .row .col-lg-12 .most-popular-section-tagline {
+    font-size: 15px;
+    padding-bottom: 4%;
+}
+
+.most-popular-section .container .row .col-lg-12 .add-more-btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.most-popular-section .container .row .col-lg-12 .add-more-btn-box .add-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ABE236;
+    border-radius: 100px;
+}
+
+.most-popular-section .container .row .col-lg-12 .most-popular-card {
+    width: 100%;
+    height: 225px;
+    background-color: #ffffff;
+    filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.15));
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.most-popular-section .container .row .col-lg-12 .most-popular-card .most-popular-card-img-box {
+    width: 100%;
+    height: 184px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+}
+
+.most-popular-section .container .row .col-lg-12 .most-popular-card .most-popular-card-img-box .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.most-popular-card .most-popular-card-title {
+    color: #000929;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7px;
+
+}
+
+.most-popular-card-hover::before {
+    position: absolute !important;
+    background-color: rgba(0, 0, 0, 0.4);
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.most-popular-card .most-popular-hover-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75px;
+    height: 99px;
+    transform: translate(-50%, -50% );
+}
+
+.most-popular-card .most-popular-card-text-hover {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.most-popular-card-text-hover {
+
+}
+
+
+.most-popular-card-text-hover .time-duration {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 10px;
+  
+  }
+  
+  .most-popular-card-text-hover .like {
+    font-weight: bold !important;
+    color: #ffffff;
+  }
+  
+  .most-popular-card-text-hover .percentage {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 8px;
+  
+  }
+  
+  .most-popular-card-text-hover .views {
+    font-size: 14px;
+    padding-left: 15px;
+    color: #ffffff;
+  }
+  
